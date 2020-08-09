@@ -1,0 +1,216 @@
+<html>
+<head>
+<titile></titile>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+
+
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	.hero{
+		width: 100%;
+		height: 100vh;
+		background-image: url(images/pic5.jpg);
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		overflow: hidden;
+
+	}
+	.logo
+	{
+		width: 100px;
+		cursor: pointer;
+	}
+	.navbar
+	{
+		width: 85%;
+		height: 15%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+	button
+	{
+		color: #fbfcfd;
+		padding: 10px 25px;
+		background: transparent;
+		border: 1px solid #000;
+		border-radius: 20%;
+		outline: none;
+		cursor: pointer;
+	}
+	button:hover
+	{
+		color: #000;
+		background-color: white;
+	}
+
+	.content
+	{
+		color: #fbfcfd;
+		position: absolute;
+		top: 50%;
+		left: 8%;
+		transform: translateY(-50%);
+		z-index: 2;
+
+	}
+	h1
+	{
+		font-size: 80px;
+		margin: 10px 0 30px;
+	}
+	.bubbles img
+	{
+      width: 50px;
+      animation: bubble 7s linear infinite;
+	}
+	.bubbles
+	{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		position: absolute;
+		bottom: -70;
+	}
+
+	@keyframes bubble{
+		0%{
+			transform: translateY(0);
+			opacity: 0;
+		}
+		50%{
+		
+			opacity: 1;
+		}
+		70%{
+
+			opacity: 1;
+		}
+		100%{
+			transform: translateY(-80vh);
+			opacity: 0;
+		}
+	}
+
+	
+    .bubbles img:nth-child(1){
+    	animation-delay: 2s;
+    	width: 30px;
+    }
+    .bubbles img:nth-child(2){
+    	animation-delay: 3s;
+    	width: 29px;
+    }
+
+    .bubbles img:nth-child(3){
+    	animation-delay: 1.2s;
+    	width: 35px;
+    }
+
+    .bubbles img:nth-child(4){
+    	animation-delay: 4.2s;
+    	width: 25px;
+    }
+    .bubbles img:nth-child(5){
+    	animation-delay: 3.5s;
+    	width: 30px;
+    }
+    .bubbles img:nth-child(6){
+    	animation-delay: 4s;
+    	width: 45px;
+    }
+    .bubbles img:nth-child(7){
+    	animation-delay: 2.1s;
+    	width: 28px;
+    }
+    .bubbles img:nth-child(8){
+    	animation-delay: 2.8s;
+    	width: 35px;
+    }
+
+.bubbles img:nth-child(9){
+    	animation-delay: 3.2s;
+    	width: 45px;
+    }
+
+.bubbles img:nth-child(10){
+    	animation-delay: 3.7s;
+    	width: 29px;
+    }
+
+
+
+
+
+
+	</style>
+
+
+<body>
+
+	<div class="hero">
+		<div class="navbar">
+			<img src="images/pic6.png" class="logo">
+			<button type="button">Sign Up</button>       
+       </div>
+
+
+       <div class="content">
+       	<small> Welcome To Our</small>
+       	<h1>World's<br> Creative Studio</h1>
+       	<button type="button">Take A Tour</button>
+       </div>
+
+
+      <div class="bubbles">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+         <img src="images/pic3.png">
+      </div>
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+	</body>
+	</html>
